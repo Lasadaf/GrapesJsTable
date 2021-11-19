@@ -4,375 +4,153 @@ function TextTablePlugin(editor){
       content: `<table width="80%" style="border-collapse: collapse; border:1px solid black; margin:auto; max-width: 100%;">
       <tr>
       <td style="border-collapse: collapse; border:1px solid black; margin:auto; min-width: 25%; height:100%;"><textarea type="text" style="height:100%; width:100%; min-height:30px; border: none; resize: none; text-align: center;" oninput="
-      this.style.height = '100%';
-      var autoheight = this.scrollHeight;
       this.style.height = '0px';
-      var notautoheight = this.scrollHeight;
-      if (autoheight > notautoheight) {
-        this.style.height = '100%';
-      } else {
-        this.style.height = notautoheight + 5 + 'px';
-      }
+      this.style.height = this.scrollHeight + 5 + 'px';
       "></textarea></td>
       <td style="border-collapse: collapse; border:1px solid black; margin:auto; min-width: 25%; height:100%;"><textarea type="text" style="height:100%; width:100%; min-height:30px; border: none; resize: none; text-align: center;" oninput="
-      this.style.height = '100%';
-      var autoheight = this.scrollHeight;
       this.style.height = '0px';
-      var notautoheight = this.scrollHeight;
-      if (autoheight > notautoheight) {
-        this.style.height = '100%';
-      } else {
-        this.style.height = notautoheight + 5 + 'px';
-      }
+      this.style.height = this.scrollHeight + 5 + 'px';
       "></textarea></td>
       <td style="border-collapse: collapse; border:1px solid black; margin:auto; min-width: 25%; height:100%;"><textarea type="text" style="height:100%; width:100%; min-height:30px; border: none; resize: none; text-align: center;" oninput="
-      this.style.height = '100%';
-      var autoheight = this.scrollHeight;
       this.style.height = '0px';
-      var notautoheight = this.scrollHeight;
-      if (autoheight > notautoheight) {
-        this.style.height = '100%';
-      } else {
-        this.style.height = notautoheight + 5 + 'px';
-      }
+      this.style.height = this.scrollHeight + 5 + 'px';
       "></textarea></td>
       <td style="border-collapse: collapse; border:1px solid black; margin:auto; min-width: 25%; height:100%;"><textarea type="text" style="height:100%; width:100%; min-height:30px; border: none; resize: none; text-align: center;" oninput="
-      this.style.height = '100%';
-      var autoheight = this.scrollHeight;
       this.style.height = '0px';
-      var notautoheight = this.scrollHeight;
-      if (autoheight > notautoheight) {
-        this.style.height = '100%';
-      } else {
-        this.style.height = notautoheight + 5 + 'px';
-      }
+      this.style.height = this.scrollHeight + 5 + 'px';
       "></textarea></td>
       </tr>
       <tr>
       <td style="border-collapse: collapse; border:1px solid black; margin:auto; min-width: 25%; height:100%;"><textarea type="text" style="height:100%; width:100%; min-height:30px; border: none; resize: none; text-align: center;" oninput="
-      this.style.height = '100%';
-      var autoheight = this.scrollHeight;
       this.style.height = '0px';
-      var notautoheight = this.scrollHeight;
-      if (autoheight > notautoheight) {
-        this.style.height = '100%';
-      } else {
-        this.style.height = notautoheight + 5 + 'px';
-      }
+      this.style.height = this.scrollHeight + 5 + 'px';
       "></textarea></td>
       <td style="border-collapse: collapse; border:1px solid black; margin:auto; min-width: 25%; height:100%;"><textarea type="text" style="height:100%; width:100%; min-height:30px; border: none; resize: none; text-align: center;" oninput="
-      this.style.height = '100%';
-      var autoheight = this.scrollHeight;
       this.style.height = '0px';
-      var notautoheight = this.scrollHeight;
-      if (autoheight > notautoheight) {
-        this.style.height = '100%';
-      } else {
-        this.style.height = notautoheight + 5 + 'px';
-      }
+      this.style.height = this.scrollHeight + 5 + 'px';
       "></textarea></td>
       <td style="border-collapse: collapse; border:1px solid black; margin:auto; min-width: 25%; height:100%;"><textarea type="text" style="height:100%; width:100%; min-height:30px; border: none; resize: none; text-align: center;" oninput="
-      this.style.height = '100%';
-      var autoheight = this.scrollHeight;
       this.style.height = '0px';
-      var notautoheight = this.scrollHeight;
-      if (autoheight > notautoheight) {
-        this.style.height = '100%';
-      } else {
-        this.style.height = notautoheight + 5 + 'px';
-      }
+      this.style.height = this.scrollHeight + 5 + 'px';
       "></textarea></td>
       <td style="border-collapse: collapse; border:1px solid black; margin:auto; min-width: 25%; height:100%;"><textarea type="text" style="height:100%; width:100%; min-height:30px; border: none; resize: none; text-align: center;" oninput="
-      this.style.height = '100%';
-      var autoheight = this.scrollHeight;
       this.style.height = '0px';
-      var notautoheight = this.scrollHeight;
-      if (autoheight > notautoheight) {
-        this.style.height = '100%';
-      } else {
-        this.style.height = notautoheight + 5 + 'px';
-      }
+      this.style.height = this.scrollHeight + 5 + 'px';
       "></textarea></td>
       </tr>
       <tr>
       <td style="border-collapse: collapse; border:1px solid black; margin:auto; min-width: 25%; height:100%;"><textarea type="text" style="height:100%; width:100%; min-height:30px; border: none; resize: none; text-align: center;" oninput="
-      this.style.height = '100%';
-      var autoheight = this.scrollHeight;
       this.style.height = '0px';
-      var notautoheight = this.scrollHeight;
-      if (autoheight > notautoheight) {
-        this.style.height = '100%';
-      } else {
-        this.style.height = notautoheight + 5 + 'px';
-      }
+      this.style.height = this.scrollHeight + 5 + 'px';
       "></textarea></td>
       <td style="border-collapse: collapse; border:1px solid black; margin:auto; min-width: 25%; height:100%;"><textarea type="text" style="height:100%; width:100%; min-height:30px; border: none; resize: none; text-align: center;" oninput="
-      this.style.height = '100%';
-      var autoheight = this.scrollHeight;
       this.style.height = '0px';
-      var notautoheight = this.scrollHeight;
-      if (autoheight > notautoheight) {
-        this.style.height = '100%';
-      } else {
-        this.style.height = notautoheight + 5 + 'px';
-      }
+      this.style.height = this.scrollHeight + 5 + 'px';
       "></textarea></td>
       <td style="border-collapse: collapse; border:1px solid black; margin:auto; min-width: 25%; height:100%;"><textarea type="text" style="height:100%; width:100%; min-height:30px; border: none; resize: none; text-align: center;" oninput="
-      this.style.height = '100%';
-      var autoheight = this.scrollHeight;
       this.style.height = '0px';
-      var notautoheight = this.scrollHeight;
-      if (autoheight > notautoheight) {
-        this.style.height = '100%';
-      } else {
-        this.style.height = notautoheight + 5 + 'px';
-      }
+      this.style.height = this.scrollHeight + 5 + 'px';
       "></textarea></td>
       <td style="border-collapse: collapse; border:1px solid black; margin:auto; min-width: 25%; height:100%;"><textarea type="text" style="height:100%; width:100%; min-height:30px; border: none; resize: none; text-align: center;" oninput="
-      this.style.height = '100%';
-      var autoheight = this.scrollHeight;
       this.style.height = '0px';
-      var notautoheight = this.scrollHeight;
-      if (autoheight > notautoheight) {
-        this.style.height = '100%';
-      } else {
-        this.style.height = notautoheight + 5 + 'px';
-      }
+      this.style.height = this.scrollHeight + 5 + 'px';
       "></textarea></td>
       </tr>
       <tr>
       <td style="border-collapse: collapse; border:1px solid black; margin:auto; min-width: 25%; height:100%;"><textarea type="text" style="height:100%; width:100%; min-height:30px; border: none; resize: none; text-align: center;" oninput="
-      this.style.height = '100%';
-      var autoheight = this.scrollHeight;
       this.style.height = '0px';
-      var notautoheight = this.scrollHeight;
-      if (autoheight > notautoheight) {
-        this.style.height = '100%';
-      } else {
-        this.style.height = notautoheight + 5 + 'px';
-      }
+      this.style.height = this.scrollHeight + 5 + 'px';
       "></textarea></td>
       <td style="border-collapse: collapse; border:1px solid black; margin:auto; min-width: 25%; height:100%;"><textarea type="text" style="height:100%; width:100%; min-height:30px; border: none; resize: none; text-align: center;" oninput="
-      this.style.height = '100%';
-      var autoheight = this.scrollHeight;
       this.style.height = '0px';
-      var notautoheight = this.scrollHeight;
-      if (autoheight > notautoheight) {
-        this.style.height = '100%';
-      } else {
-        this.style.height = notautoheight + 5 + 'px';
-      }
+      this.style.height = this.scrollHeight + 5 + 'px';
       "></textarea></td>
       <td style="border-collapse: collapse; border:1px solid black; margin:auto; min-width: 25%; height:100%;"><textarea type="text" style="height:100%; width:100%; min-height:30px; border: none; resize: none; text-align: center;" oninput="
-      this.style.height = '100%';
-      var autoheight = this.scrollHeight;
       this.style.height = '0px';
-      var notautoheight = this.scrollHeight;
-      if (autoheight > notautoheight) {
-        this.style.height = '100%';
-      } else {
-        this.style.height = notautoheight + 5 + 'px';
-      }
+      this.style.height = this.scrollHeight + 5 + 'px';
       "></textarea></td>
       <td style="border-collapse: collapse; border:1px solid black; margin:auto; min-width: 25%; height:100%;"><textarea type="text" style="height:100%; width:100%; min-height:30px; border: none; resize: none; text-align: center;" oninput="
-      this.style.height = '100%';
-      var autoheight = this.scrollHeight;
       this.style.height = '0px';
-      var notautoheight = this.scrollHeight;
-      if (autoheight > notautoheight) {
-        this.style.height = '100%';
-      } else {
-        this.style.height = notautoheight + 5 + 'px';
-      }
+      this.style.height = this.scrollHeight + 5 + 'px';
       "></textarea></td>
       </tr>
       <tr>
       <td style="border-collapse: collapse; border:1px solid black; margin:auto; min-width: 25%; height:100%;"><textarea type="text" style="height:100%; width:100%; min-height:30px; border: none; resize: none; text-align: center;" oninput="
-      this.style.height = '100%';
-      var autoheight = this.scrollHeight;
       this.style.height = '0px';
-      var notautoheight = this.scrollHeight;
-      if (autoheight > notautoheight) {
-        this.style.height = '100%';
-      } else {
-        this.style.height = notautoheight + 5 + 'px';
-      }
+      this.style.height = this.scrollHeight + 5 + 'px';
       "></textarea></td>
       <td style="border-collapse: collapse; border:1px solid black; margin:auto; min-width: 25%; height:100%;"><textarea type="text" style="height:100%; width:100%; min-height:30px; border: none; resize: none; text-align: center;" oninput="
-      this.style.height = '100%';
-      var autoheight = this.scrollHeight;
       this.style.height = '0px';
-      var notautoheight = this.scrollHeight;
-      if (autoheight > notautoheight) {
-        this.style.height = '100%';
-      } else {
-        this.style.height = notautoheight + 5 + 'px';
-      }
+      this.style.height = this.scrollHeight + 5 + 'px';
       "></textarea></td>
       <td style="border-collapse: collapse; border:1px solid black; margin:auto; min-width: 25%; height:100%;"><textarea type="text" style="height:100%; width:100%; min-height:30px; border: none; resize: none; text-align: center;" oninput="
-      this.style.height = '100%';
-      var autoheight = this.scrollHeight;
       this.style.height = '0px';
-      var notautoheight = this.scrollHeight;
-      if (autoheight > notautoheight) {
-        this.style.height = '100%';
-      } else {
-        this.style.height = notautoheight + 5 + 'px';
-      }
+      this.style.height = this.scrollHeight + 5 + 'px';
       "></textarea></td>
       <td style="border-collapse: collapse; border:1px solid black; margin:auto; min-width: 25%; height:100%;"><textarea type="text" style="height:100%; width:100%; min-height:30px; border: none; resize: none; text-align: center;" oninput="
-      this.style.height = '100%';
-      var autoheight = this.scrollHeight;
       this.style.height = '0px';
-      var notautoheight = this.scrollHeight;
-      if (autoheight > notautoheight) {
-        this.style.height = '100%';
-      } else {
-        this.style.height = notautoheight + 5 + 'px';
-      }
+      this.style.height = this.scrollHeight + 5 + 'px';
       "></textarea></td>
       </tr>
       <tr>
       <td style="border-collapse: collapse; border:1px solid black; margin:auto; min-width: 25%; height:100%;"><textarea type="text" style="height:100%; width:100%; min-height:30px; border: none; resize: none; text-align: center;" oninput="
-      this.style.height = '100%';
-      var autoheight = this.scrollHeight;
       this.style.height = '0px';
-      var notautoheight = this.scrollHeight;
-      if (autoheight > notautoheight) {
-        this.style.height = '100%';
-      } else {
-        this.style.height = notautoheight + 5 + 'px';
-      }
+      this.style.height = this.scrollHeight + 5 + 'px';
       "></textarea></td>
       <td style="border-collapse: collapse; border:1px solid black; margin:auto; min-width: 25%; height:100%;"><textarea type="text" style="height:100%; width:100%; min-height:30px; border: none; resize: none; text-align: center;" oninput="
-      this.style.height = '100%';
-      var autoheight = this.scrollHeight;
       this.style.height = '0px';
-      var notautoheight = this.scrollHeight;
-      if (autoheight > notautoheight) {
-        this.style.height = '100%';
-      } else {
-        this.style.height = notautoheight + 5 + 'px';
-      }
+      this.style.height = this.scrollHeight + 5 + 'px';
       "></textarea></td>
       <td style="border-collapse: collapse; border:1px solid black; margin:auto; min-width: 25%; height:100%;"><textarea type="text" style="height:100%; width:100%; min-height:30px; border: none; resize: none; text-align: center;" oninput="
-      this.style.height = '100%';
-      var autoheight = this.scrollHeight;
       this.style.height = '0px';
-      var notautoheight = this.scrollHeight;
-      if (autoheight > notautoheight) {
-        this.style.height = '100%';
-      } else {
-        this.style.height = notautoheight + 5 + 'px';
-      }
+      this.style.height = this.scrollHeight + 5 + 'px';
       "></textarea></td>
       <td style="border-collapse: collapse; border:1px solid black; margin:auto; min-width: 25%; height:100%;"><textarea type="text" style="height:100%; width:100%; min-height:30px; border: none; resize: none; text-align: center;" oninput="
-      this.style.height = '100%';
-      var autoheight = this.scrollHeight;
       this.style.height = '0px';
-      var notautoheight = this.scrollHeight;
-      if (autoheight > notautoheight) {
-        this.style.height = '100%';
-      } else {
-        this.style.height = notautoheight + 5 + 'px';
-      }
+      this.style.height = this.scrollHeight + 5 + 'px';
       "></textarea></td>
       </tr>
       <tr>
       <td style="border-collapse: collapse; border:1px solid black; margin:auto; min-width: 25%; height:100%;"><textarea type="text" style="height:100%; width:100%; min-height:30px; border: none; resize: none; text-align: center;" oninput="
-      this.style.height = '100%';
-      var autoheight = this.scrollHeight;
       this.style.height = '0px';
-      var notautoheight = this.scrollHeight;
-      if (autoheight > notautoheight) {
-        this.style.height = '100%';
-      } else {
-        this.style.height = notautoheight + 5 + 'px';
-      }
+      this.style.height = this.scrollHeight + 5 + 'px';
       "></textarea></td>
       <td style="border-collapse: collapse; border:1px solid black; margin:auto; min-width: 25%; height:100%;"><textarea type="text" style="height:100%; width:100%; min-height:30px; border: none; resize: none; text-align: center;" oninput="
-      this.style.height = '100%';
-      var autoheight = this.scrollHeight;
       this.style.height = '0px';
-      var notautoheight = this.scrollHeight;
-      if (autoheight > notautoheight) {
-        this.style.height = '100%';
-      } else {
-        this.style.height = notautoheight + 5 + 'px';
-      }
+      this.style.height = this.scrollHeight + 5 + 'px';
       "></textarea></td>
       <td style="border-collapse: collapse; border:1px solid black; margin:auto; min-width: 25%; height:100%;"><textarea type="text" style="height:100%; width:100%; min-height:30px; border: none; resize: none; text-align: center;" oninput="
-      this.style.height = '100%';
-      var autoheight = this.scrollHeight;
       this.style.height = '0px';
-      var notautoheight = this.scrollHeight;
-      if (autoheight > notautoheight) {
-        this.style.height = '100%';
-      } else {
-        this.style.height = notautoheight + 5 + 'px';
-      }
+      this.style.height = this.scrollHeight + 5 + 'px';
       "></textarea></td>
       <td style="border-collapse: collapse; border:1px solid black; margin:auto; min-width: 25%; height:100%;"><textarea type="text" style="height:100%; width:100%; min-height:30px; border: none; resize: none; text-align: center;" oninput="
-      this.style.height = '100%';
-      var autoheight = this.scrollHeight;
       this.style.height = '0px';
-      var notautoheight = this.scrollHeight;
-      if (autoheight > notautoheight) {
-        this.style.height = '100%';
-      } else {
-        this.style.height = notautoheight + 5 + 'px';
-      }
+      this.style.height = this.scrollHeight + 5 + 'px';
       "></textarea></td>
       </tr>
       <tr>
       <td style="border-collapse: collapse; border:1px solid black; margin:auto; min-width: 25%; height:100%;"><textarea type="text" style="height:100%; width:100%; min-height:30px; border: none; resize: none; text-align: center;" oninput="
-      this.style.height = '100%';
-      var autoheight = this.scrollHeight;
       this.style.height = '0px';
-      var notautoheight = this.scrollHeight;
-      if (autoheight > notautoheight) {
-        this.style.height = '100%';
-      } else {
-        this.style.height = notautoheight + 5 + 'px';
-      }
+      this.style.height = this.scrollHeight + 5 + 'px';
       "></textarea></td>
       <td style="border-collapse: collapse; border:1px solid black; margin:auto; min-width: 25%; height:100%;"><textarea type="text" style="height:100%; width:100%; min-height:30px; border: none; resize: none; text-align: center;" oninput="
-      this.style.height = '100%';
-      var autoheight = this.scrollHeight;
       this.style.height = '0px';
-      var notautoheight = this.scrollHeight;
-      if (autoheight > notautoheight) {
-        this.style.height = '100%';
-      } else {
-        this.style.height = notautoheight + 5 + 'px';
-      }
+      this.style.height = this.scrollHeight + 5 + 'px';
       "></textarea></td>
       <td style="border-collapse: collapse; border:1px solid black; margin:auto; min-width: 25%; height:100%;"><textarea type="text" style="height:100%; width:100%; min-height:30px; border: none; resize: none; text-align: center;" oninput="
-      this.style.height = '100%';
-      var autoheight = this.scrollHeight;
       this.style.height = '0px';
-      var notautoheight = this.scrollHeight;
-      if (autoheight > notautoheight) {
-        this.style.height = '100%';
-      } else {
-        this.style.height = notautoheight + 5 + 'px';
-      }
+      this.style.height = this.scrollHeight + 5 + 'px';
       "></textarea></td>
       <td style="border-collapse: collapse; border:1px solid black; margin:auto; min-width: 25%; height:100%;"><textarea type="text" style="height:100%; width:100%; min-height:30px; border: none; resize: none; text-align: center;" oninput="
-      this.style.height = '100%';
-      var autoheight = this.scrollHeight;
       this.style.height = '0px';
-      var notautoheight = this.scrollHeight;
-      if (autoheight > notautoheight) {
-        this.style.height = '100%';
-      } else {
-        this.style.height = notautoheight + 5 + 'px';
-      }
+      this.style.height = this.scrollHeight + 5 + 'px';
       "></textarea></td>
       </tr>
       </table>`
     });
     //<td style="border-collapse: collapse; border:1px solid black; margin:auto; min-width: 25%; height:100%;"><textarea type="text" style="height:100%; width:100%; min-height:30px; border: none; resize: none; text-align: center;" oninput="
+
+    /*
 
     const script = function () {
       var i = 0;
@@ -397,7 +175,7 @@ function TextTablePlugin(editor){
       }
     }
 
-    editor.Components.addType('comp-with-js', {
+    editor.Components.addType('script-table', {
       model: {
         defaults: {
           script,
@@ -409,7 +187,9 @@ function TextTablePlugin(editor){
     editor.Blocks.add('test-block', {
       label: 'Таблица командами',
       attributes: { class: 'fa fa-text' },
-      content: { type: 'comp-with-js' },
+      content: { type: 'script-table' },
     });
+
+    */
 
 }
